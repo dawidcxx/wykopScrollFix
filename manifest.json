@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "content_scripts": [ {
+        "exclude_globs":    [  ],
+        "include_globs":    [ "*" ],
+        "js":               ["plugin.js"],
+        "matches":          ["*://www.wykop.pl/*"],
+        "run_at": "document_end"
+    } ],
+    "converted_from_user_script": true,
+    "description":  "Naprawia wykop poprawiawjac scroll perf.",
+    "name":         "wykopScrollFix",
+    "version":      "1"
+}
